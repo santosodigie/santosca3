@@ -1,5 +1,5 @@
 body {
-  background: #28286e;
+  background: #000000;
 }
 
 form {
@@ -105,7 +105,7 @@ nav ul {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
-  background-color: #9496ff;
+  background-color: lightgray;
 }
 
 nav ul li a {
@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #4e77ff;
+  color: #030305;
 }
 
 .unb {
