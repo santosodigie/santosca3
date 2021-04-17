@@ -73,19 +73,42 @@ if(isset($_POST['login'])){
  
 ?>
 <!DOCTYPE html>
+<?php
+include('includes/header.php');
+?>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Login stfu</title>
+        <title>Login</title>
     </head>
     <body>
-        <h1>Loginn</h1>
         <form action="login.php" method="post">
-            <label for="username">Username 1</label>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Password</label>
-            <input type="text" id="password" name="password"><br>
-            <input type="submit" name="login" value="Login">
+        <h2 class="text-warning text-center pt-5">Login Page</h2>
+
+            <label for="username">
+                <input 
+                type="text" 
+                class="input"
+                id="username" 
+                name="username"
+                placeholder="USERNAME">
+                <div class="line-box">          
+                <div class="line"></div>        
+                </div>
+            </label>
+
+            <label for="password">
+                <input 
+                type="text" 
+                class="input"
+                id="password" 
+                name="password"
+                placeholder="PASSWORD">
+                <div class="line-box">          
+                <div class="line"></div>        
+                </div>
+            </label>    
+            <button type="submit" name="login" value="Login">Login</button>
         </form>
     </body>
 </html>

@@ -96,7 +96,7 @@ include('includes/header.php');
     <body>
         
         <form action="register.php" method="post">
-        <h4 class="text-warning text-center pt-5">Registration Page.</h4>
+        <h2 class="text-warning text-center pt-5">Registration Page.</h2>
 
             <label for="username">
                 <input 
