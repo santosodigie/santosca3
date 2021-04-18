@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 body {
   background: #404CCC;
 }
@@ -165,5 +166,52 @@ nav ul li a:hover {
 .nb a:hover:not(.active) {
   background-color: black;
   color: white;
+}
+
+:root {
+  --primary-color: rgba(94, 180, 251, 0.85);
+  --primary-hover: rgba(94, 180, 251, 0.95);
+  --submit-color: rgba(29, 54, 165, 0.85);
+  --submit-hover: rgba(29, 54, 165, 0.95);
+  --danger-color: rgba(255, 19, 19, 0.85);
+  --danger-hover: rgba(255, 19, 19, 0.95);
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: var(--primary-hover);
+}
+
+.navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  color: white;
+}
+
+.navbar-item > a {
+  color: white;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.logo {
+  margin-top: 0;
+  font-size: 1.75rem;
 }
 /*# sourceMappingURL=mystyle.css.map */
