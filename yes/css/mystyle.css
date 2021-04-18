@@ -2,7 +2,7 @@ body {
   background: #404CCC;
 }
 
-form {
+.form1 {
   width: 30%;
   margin: 60px auto;
   background: #282F7F;
@@ -103,7 +103,6 @@ button:hover {
 
 .text-warning {
   color: #ffffff;
-  height: 3em;
 }
 
 header {

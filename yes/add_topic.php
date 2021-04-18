@@ -7,12 +7,12 @@ if ($name == null) {
     $error = "Invalid topic data. Check all fields and try again.";
     include('error.php');
 } else {
-    require_once('login.php');
+    require_once('login_connect.php');
 
     // Add the product to the database
     $query = "INSERT INTO topics (TopicName)
               VALUES (:name)";
-    $statement = $db->prepare($query);
+    $statement = $pdo->prepare($query);
     $statement->bindValue(':name', $name);
     $statement->execute();
     $statement->closeCursor();

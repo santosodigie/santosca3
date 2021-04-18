@@ -95,10 +95,10 @@ include('includes/header.php');
     </head>
     <body>
         
-        <form action="register.php" method="post">
+        <form class="form1" action="register.php" method="post">
         <h2 class="text-warning text-center pt-5">Registration Page.</h2>
 
-            <label for="username">
+            <label class="label"for="username">
                 <input 
                 type="text" 
                 class="input" 

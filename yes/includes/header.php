@@ -1,14 +1,11 @@
-<!-- the head section -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My PHP CRUD App</title>
-<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP Blog</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-
-<!-- the body section -->
 <body>
-<ul class ="unb">
-  <li class="nb"><a href="#home">Home</a></li>
-  <li class="nb"><a href="#news">League Database</a></li>
-  <li class="nb"><a href="#contact">Contact</a></li>
-  <li class="nb"><a href="#about">About</a></li>
-</ul>
+<?php include_once 'navbar.php';?>
