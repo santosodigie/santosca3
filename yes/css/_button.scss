@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root {
+    --primary-color: rgba(94, 180, 251, 0.85);
+    --primary-hover: rgba(94, 180, 251, 0.95);
+    --submit-color: rgba(29, 54, 165, 0.85);
+    --submit-hover: rgba(29, 54, 165, 0.95);
+    --danger-color: rgba(255, 19, 19, 0.85);
+    --danger-hover: rgba(255, 19, 19, 0.95);
+}
+
+.btn {
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-logout {
+    border-style: none;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 1rem;
+}
+
+.btn-submit {
+    background-color: var(--submit-color);
+}
+
+.btn-submit:hover {
+    background-color: var(--submit-hover);
+}
+
+.button-right {
+    float: right;
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    border: 0;
+}
+
+.btn-danger:hover {
+    background-color: var(--danger-hover);
+}

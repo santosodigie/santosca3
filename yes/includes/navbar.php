@@ -10,7 +10,9 @@
     <ul class="navbar-list">
         <?php
             if (isset($_SESSION['username'])) {
-                echo '
+                echo ($_SESSION["username"]),
+                
+                '
                     <li class="navbar-item"><a href="index.php">Home</a></li>
                     <li class="navbar-item">
                         <form action="includes/logout.php" method="POST">
@@ -20,6 +22,7 @@
                 ';
             } else {
                 echo '
+                    
                     <li class="navbar-item"><a href="index.php">Home</a></li>
                     <li class="navbar-item"><a href="signup.php">Sign Up</a></li>
                     <li class="navbar-item"><a href="login.php">Sign In</a></li>

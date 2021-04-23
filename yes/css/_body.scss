@@ -1,4 +1,44 @@
-body {  
-    background: #404CCC; 
-  }
-  
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root {
+    --primary-color: rgba(94, 180, 251, 0.85);
+    --primary-hover: rgba(94, 180, 251, 0.95);
+    --submit-color: rgba(29, 54, 165, 0.85);
+    --submit-hover: rgba(29, 54, 165, 0.95);
+    --danger-color: rgba(255, 19, 19, 0.85);
+    --danger-hover: rgba(255, 19, 19, 0.95);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: .5rem;
+}
+
+input {
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.container {
+    margin: 1.5rem;
+}
