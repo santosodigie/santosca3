@@ -20,7 +20,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: grey;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -29,7 +29,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: blue;
 }
 
 </style>	
