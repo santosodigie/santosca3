@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root {
-    --primary-color: rgba(94, 180, 251, 0.85);
-    --primary-hover: rgba(94, 180, 251, 0.95);
+    --primary-color: rgba(0, 4, 255, 0.85);
+    --primary-hover: rgba(0, 4, 255, 0.85);
     --submit-color: rgba(29, 54, 165, 0.85);
     --submit-hover: rgba(29, 54, 165, 0.95);
     --danger-color: rgba(255, 19, 19, 0.85);
@@ -17,6 +17,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1 {

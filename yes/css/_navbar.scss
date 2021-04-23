@@ -1,38 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
-:root {
-    --primary-color: rgba(125, 141, 155, 0.85);
-    --primary-hover: rgba(94, 180, 251, 0.95);
-    --submit-color: rgba(29, 54, 165, 0.85);
-    --submit-hover: rgba(29, 54, 165, 0.95);
-    --danger-color: rgba(255, 19, 19, 0.85);
-    --danger-hover: rgba(255, 19, 19, 0.95);
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
+&:root {
+	--primary-color: rgba(0, 4, 255, 0.85);
+	--primary-hover: rgba(0, 4, 255, 0.85);
+	--submit-color: rgba(29, 54, 165, 0.85);
+	--submit-hover: rgba(29, 54, 165, 0.95);
+	--danger-color: rgba(255, 19, 19, 0.85);
+	--danger-hover: rgba(255, 19, 19, 0.95);
 }
-
 .navbar {
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    background-color: var(--primary-hover);
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: var(--primary-hover);
 }
-
 .navbar-list {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    color: white;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	color: white;
 }
-
-.navbar-item > a {
-    color: white;
-    padding: 0 5px;
-    margin: 0 5px;
+.navbar-item {
+	>a {
+		color: white;
+		padding: 0 5px;
+		margin: 0 5px;
+	}
 }
-
 .logo {
-    margin-top: 0;
-    font-size: 1.75rem;
+	margin-top: 0;
+	font-size: 1.75rem;
 }

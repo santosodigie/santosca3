@@ -1,47 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
-:root {
-    --primary-color: rgba(94, 180, 251, 0.85);
-    --primary-hover: rgba(94, 180, 251, 0.95);
-    --submit-color: rgba(29, 54, 165, 0.85);
-    --submit-hover: rgba(29, 54, 165, 0.95);
-    --danger-color: rgba(255, 19, 19, 0.85);
-    --danger-hover: rgba(255, 19, 19, 0.95);
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
+&:root {
+	--primary-color: rgba(0, 4, 255, 0.85);
+	--primary-hover: rgba(0, 4, 255, 0.85);
+	--submit-color: rgba(29, 54, 165, 0.85);
+	--submit-hover: rgba(29, 54, 165, 0.95);
+	--danger-color: rgba(255, 19, 19, 0.85);
+	--danger-hover: rgba(255, 19, 19, 0.95);
 }
-
 .container.signup {
-    width: 100%;
-    margin-left: 0;
+	width: 100%;
+	margin-left: 0;
 }
-
 .form-signup {
-    width: 200px;
-    margin: 0 auto;
-}
-
-.form-signup > input {
-    width: 200px;
-    padding: 5px 0;
-}
-
-.msg-container {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-}
-
-.msg {
-    display: inline-block;
-    padding: 3px 7px;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-}
-
-.error-msg {
-    background-color: var(--danger-color);
-}
-
-.confirm-msg {
-    background-color: var(--submit-color);
+	width: 200px;
+	margin: 0 auto;
+	>input {
+		width: 200px;
+		padding: 5px 0;
+	}
 }
